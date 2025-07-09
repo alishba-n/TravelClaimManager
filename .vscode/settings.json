@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d30e908a-ecbc-47a3-9627-08611caf43f3/resourceGroups/TravelClaimManagerRG/providers/Microsoft.Web/sites/travelclaim-frontend",
+    "appService.deploySubpath": "."
+}

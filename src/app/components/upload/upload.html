@@ -1,0 +1,8 @@
+<!-- frontend/src/app/components/upload/upload.component.html -->
+<div class="upload-container">
+  <h2>Upload Receipt</h2>
+  <input type="file" (change)="onFileSelected($event)" />
+  <button (click)="onUpload()" [disabled]="!selectedFile">Upload</button>
+
+  <p *ngIf="uploadStatus">{{ uploadStatus }}</p>
+</div>
